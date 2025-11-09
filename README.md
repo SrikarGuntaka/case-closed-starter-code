@@ -40,7 +40,7 @@ This template provides a few key files to get you started. Here's what each one 
     - Head-on collisions: the agent with the longer trail survives
     - Each agent has 3 speed boosts (moves twice instead of once)
     - The board has torus (wraparound) topology
-    - Game ends after 500 turns or when one/both agents die
+    - Game ends after 200 turns or when one/both agents die
 
 #### `sample_agent.py`
 **A simple agent that you can play against.**
