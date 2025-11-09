@@ -145,8 +145,15 @@ class Judge:
         }
         
         try:
-            requests.post(f"{self.p1_url}/end", json=end_data, timeout=TIMEOUT)
-            requests.post(f"{self.p2_url}/end", json=end_data, timeout=TIMEOUT)
+            # Send end game notification to both players
+            response1 = requests.post(f"{self.p1_url}/end", json=end_data, timeout=TIMEOUT)
+            response2 = requests.post(f"{self.p2_url}/end", json=end_data, timeout=TIMEOUT)
+            
+            # Check if requests were successful
+            if response1.status_code != 200:
+                print(f"Warning: Player 1 /end endpoint returned status {response1.status_code}")
+            if response2.status_code != 200:
+                print(f"Warning: Player 2 /end endpoint returned status {response2.status_code}")
             
             if isinstance(result, GameResult):
                 if result == GameResult.AGENT1_WIN:
@@ -157,7 +164,8 @@ class Judge:
                     print("Game ended in a draw")
             else:
                 print(f"Game ended: {result}")
-        except (requests.RequestException, requests.Timeout):
+        except (requests.RequestException, requests.Timeout) as e:
+            print(f"Error sending end game notification: {e}")
             return False
 
     def handle_move(self, move, player_num, is_random=False):
