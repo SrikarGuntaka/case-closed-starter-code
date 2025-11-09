@@ -1,0 +1,14 @@
+[2025-11-09 11:13:28.255487] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=1
+[2025-11-09 11:13:28.325767] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=2
+[2025-11-09 11:13:30.966917] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=2
+[2025-11-09 11:13:30.973755] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=1
+[2025-11-09 11:17:35.555480] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=1
+[2025-11-09 11:17:35.566525] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=2
+[2025-11-09 11:17:38.495568] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=1
+[2025-11-09 11:17:38.505659] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=2
+[2025-11-09 11:17:48.944653] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=1
+[2025-11-09 11:17:50.261113] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=2
+[2025-11-09 11:17:57.189003] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=1
+[2025-11-09 11:17:57.205682] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=2
+[2025-11-09 11:17:59.886155] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=1
+[2025-11-09 11:17:59.904714] Agent initialized: LOG_EPISODES=True, DATA_DIR=C:\Users\srika\CaseClosed\data\selfplay, PLAYER_NUMBER=2

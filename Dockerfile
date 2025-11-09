@@ -1,15 +1,23 @@
-# Participant testing Dockerfile
-FROM python:3.12-slim
+# Case Closed Agent Dockerfile
+FROM python:3.10-slim
 
+# Set working directory
 WORKDIR /app
 
-# Copy participant code
-COPY . .
-
+# Copy dependency list first (for caching)
 COPY requirements.txt .
 
-# Install dependencies
+# Install dependencies (CPU only, no cache)
 RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 8080
+# Copy the rest of the project
+COPY . .
+
+# Set default port for judge engine
+ENV PORT=5008
+
+# Expose the correct port
+EXPOSE 5008
+
+# Run your Flask agent
 CMD ["python", "agent.py"]

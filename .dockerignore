@@ -1,5 +1,43 @@
-README.md
-local-tester.py
-sample_agent.py
+# Ignore Git metadata
 .git
 .gitignore
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore local logs and caches
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore local training data and generated files
+data/
+selfplay/
+*.npz
+*.pth
+*.pt
+*.zip
+
+# Ignore documentation and testing utilities
+README.md
+local-tester.py
+evaluate.py
+train.py
+selfplay.py
+notebooks/
+*.ipynb
+
+# Ignore large artifacts
+*.tar
+*.gz
+*.whl
+
+# Optional: keep only what the container needs
+Dockerfile
+requirements.txt
+agent.py
+case_closed_game.py
+judge_engine.py
+sample_agent.py
